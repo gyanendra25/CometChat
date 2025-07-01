@@ -11,6 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.cometchat.chatscreen.ChatContent
 import com.example.cometchat.homescreen.HomeScreen
 import com.example.cometchat.ui.theme.CometChatTheme
 
@@ -20,7 +21,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             CometChatTheme {
-                HomeScreen()
+                ChatContent()
             }
         }
     }
