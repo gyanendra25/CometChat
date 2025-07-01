@@ -26,10 +26,10 @@ fun HomeScreen() {
 
     val chatData = listOf(
         ChatDesignModel(
-            R.drawable.ajay_devgn,
-            name = "Ajay Devgan",
-            time = "12:00",
-            message = "Hello"
+            R.drawable.kartik_aaryan,
+            name = "George Alan",
+            time = "4:56",
+            message = "Thank you!"
         ),
         ChatDesignModel(
             R.drawable.rajkummar_rao,
